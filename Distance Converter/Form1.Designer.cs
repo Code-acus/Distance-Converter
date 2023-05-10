@@ -88,6 +88,7 @@
             this.convertButton.TabIndex = 4;
             this.convertButton.Text = "Convert";
             this.convertButton.UseVisualStyleBackColor = true;
+            this.convertButton.Click += new System.EventHandler(this.convertButton_Click);
             // 
             // exitButton
             // 
