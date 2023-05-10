@@ -24,7 +24,11 @@ namespace Distance_Converter
 
         private void convertButton_Click(object sender, EventArgs e)
         {
-
+            // Parse the distance value from the text box
+            if (!double.TryParse(TextBox1.Text, out double distance))
+            {
+                
+            }
         }
     }
 }
