@@ -35,7 +35,7 @@
             this.convertButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.convertFromListBox = new System.Windows.Forms.ListBox();
-            this.ConvertToListBox = new System.Windows.Forms.ListBox();
+            this.convertToListBox = new System.Windows.Forms.ListBox();
             this.converFromGroup = new System.Windows.Forms.GroupBox();
             this.convertToGroup = new System.Windows.Forms.GroupBox();
             this.converFromGroup.SuspendLayout();
@@ -113,19 +113,19 @@
             this.convertFromListBox.Size = new System.Drawing.Size(152, 84);
             this.convertFromListBox.TabIndex = 6;
             // 
-            // ConvertToListBox
+            // convertToListBox
             // 
-            this.ConvertToListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ConvertToListBox.FormattingEnabled = true;
-            this.ConvertToListBox.ItemHeight = 16;
-            this.ConvertToListBox.Items.AddRange(new object[] {
+            this.convertToListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.convertToListBox.FormattingEnabled = true;
+            this.convertToListBox.ItemHeight = 16;
+            this.convertToListBox.Items.AddRange(new object[] {
             "Inches",
             "Feet",
             "Yards"});
-            this.ConvertToListBox.Location = new System.Drawing.Point(6, 35);
-            this.ConvertToListBox.Name = "ConvertToListBox";
-            this.ConvertToListBox.Size = new System.Drawing.Size(144, 84);
-            this.ConvertToListBox.TabIndex = 7;
+            this.convertToListBox.Location = new System.Drawing.Point(6, 35);
+            this.convertToListBox.Name = "convertToListBox";
+            this.convertToListBox.Size = new System.Drawing.Size(144, 84);
+            this.convertToListBox.TabIndex = 7;
             // 
             // converFromGroup
             // 
@@ -139,7 +139,7 @@
             // 
             // convertToGroup
             // 
-            this.convertToGroup.Controls.Add(this.ConvertToListBox);
+            this.convertToGroup.Controls.Add(this.convertToListBox);
             this.convertToGroup.Location = new System.Drawing.Point(255, 88);
             this.convertToGroup.Name = "convertToGroup";
             this.convertToGroup.Size = new System.Drawing.Size(156, 136);
@@ -178,7 +178,7 @@
         private System.Windows.Forms.Button convertButton;
         private System.Windows.Forms.Button exitButton;
         private System.Windows.Forms.ListBox convertFromListBox;
-        private System.Windows.Forms.ListBox ConvertToListBox;
+        private System.Windows.Forms.ListBox convertToListBox;
         private System.Windows.Forms.GroupBox converFromGroup;
         private System.Windows.Forms.GroupBox convertToGroup;
     }
